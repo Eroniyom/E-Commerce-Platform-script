@@ -1,30 +1,30 @@
 # 🛒 E-Commerce Platform
 
-Modern ve animasyonlu bir e-ticaret platformu. Sepete ekleme, yerel depolama ve kullanıcı dostu arayüz ile geliştirilmiştir.
+A modern and animated e-commerce platform. Built with cart functionality, local storage, and a user-friendly interface.
 
 ![E-Commerce Platform](https://img.shields.io/badge/Status-Active-success)
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 
-## ✨ Özellikler
+## ✨ Features
 
-- 🎨 **Modern ve Koyu Tema Tasarım** - Göz yormayan koyu tema
-- 🛍️ **Sepete Ekleme Sistemi** - Ürünleri sepete ekleyip yönetme
-- 💾 **Yerel Depolama** - Sepet bilgileri tarayıcıda saklanır
-- 🎭 **Smooth Animasyonlar** - Sayfa yüklenirken ve etkileşimlerde animasyonlar
-- 📱 **Responsive Tasarım** - Tüm cihazlarda uyumlu çalışır
-- 🔔 **Bildirim Sistemi** - Sepete ekleme işlemlerinde bildirim gösterimi
-- ⭐ **Ürün Değerlendirme** - Her ürün için yıldız puanlama sistemi
+- 🎨 **Modern Dark Theme Design** - Eye-friendly dark theme
+- 🛍️ **Shopping Cart System** - Add and manage products in cart
+- 💾 **Local Storage** - Cart data stored in browser
+- 🎭 **Smooth Animations** - Animations on page load and interactions
+- 📱 **Responsive Design** - Works on all devices
+- 🔔 **Notification System** - Notifications for cart actions
+- ⭐ **Product Ratings** - Star rating system for each product
 
-## 🚀 Kullanım
+## 🚀 Usage
 
-1. Projeyi klonlayın veya indirin:
+1. Clone or download the project:
 ```bash
-git clone https://github.com/kullanici-adi/e-commerce-platform.git
+git clone https://github.com/eroniyom/e-commerce-platform.git
 ```
 
-2. `index.html` dosyasını tarayıcıda açın:
+2. Open `index.html` in your browser:
 ```bash
 # Windows
 start index.html
@@ -36,47 +36,47 @@ open index.html
 xdg-open index.html
 ```
 
-3. Ürünleri sepete ekleyin ve alışveriş yapın!
+3. Add products to cart and start shopping!
 
-## 📁 Dosya Yapısı
+## 📁 File Structure
 
 ```
 e-commerce-platform/
 │
-├── index.html          # Ana HTML dosyası
-├── script.js           # JavaScript kodları
-└── README.md           # Proje dokümantasyonu
+├── index.html          # Main HTML file
+├── script.js           # JavaScript code
+└── README.md           # Project documentation
 ```
 
-## 🎯 Özellikler Detayı
+## 🎯 Feature Details
 
-### Sepete Ekleme
-- Ürün kartlarındaki "Add to Cart" butonuna tıklayarak ürünleri sepete ekleyebilirsiniz
-- Aynı ürünü tekrar eklediğinizde miktar artar
-- Sepet sayacı sağ üst köşede görüntülenir
+### Add to Cart
+- Click the "Add to Cart" button on product cards to add products
+- Adding the same product again increases the quantity
+- Cart counter is displayed in the top right corner
 
-### Animasyonlar
-- **Sayfa Yüklenirken**: Ürün kartları sırayla yukarıdan belirir
-- **Hover Efektleri**: Kartlar üzerine gelince yükselir ve büyür
-- **Buton Tıklama**: Ripple efekti ve pulse animasyonu
-- **Sepet Badge**: Sayı değiştiğinde bounce animasyonu
-- **Bildirim**: Alttan yukarı bounce ile belirir
+### Animations
+- **On Page Load**: Product cards appear sequentially from top
+- **Hover Effects**: Cards lift and scale on hover
+- **Button Click**: Ripple effect and pulse animation
+- **Cart Badge**: Bounce animation when count changes
+- **Notification**: Appears from bottom with bounce animation
 
-### Yerel Depolama
-- Sepet bilgileri tarayıcının localStorage'ında saklanır
-- Sayfa yenilendiğinde sepet içeriği korunur
-- Tarayıcı verilerini temizlemediğiniz sürece sepet aktif kalır
+### Local Storage
+- Cart data is stored in browser's localStorage
+- Cart content persists after page refresh
+- Cart remains active until browser data is cleared
 
-## 🛠️ Teknolojiler
+## 🛠️ Technologies
 
-- **HTML5** - Yapısal markup
-- **CSS3** - Stil ve animasyonlar
-- **JavaScript (ES6)** - İşlevsellik ve etkileşimler
-- **LocalStorage API** - Veri saklama
+- **HTML5** - Structural markup
+- **CSS3** - Styling and animations
+- **JavaScript (ES6)** - Functionality and interactions
+- **LocalStorage API** - Data storage
 
-## 📦 Ürünler
+## 📦 Products
 
-Platform şu anda 6 ürün içermektedir:
+The platform currently includes 6 products:
 
 1. 🎧 Wireless Headphones - $99.99
 2. ⌚ Smart Watch - $249.99
@@ -85,46 +85,46 @@ Platform şu anda 6 ürün içermektedir:
 5. 🖱️ Gaming Mouse - $79.99
 6. 🔌 USB-C Hub - $39.99
 
-## 🎨 Ekran Görüntüleri
+## 🎨 Screenshots
 
-### Ana Sayfa
-- Koyu tema ile modern tasarım
-- 6 ürün kartı grid düzeninde
-- Sepet ikonu ve sayaç
+### Main Page
+- Modern design with dark theme
+- 6 product cards in grid layout
+- Cart icon and counter
 
-### Sepete Ekleme
-- Buton tıklama animasyonları
-- Bildirim çubuğu
-- Sepet sayacı güncellemesi
+### Add to Cart
+- Button click animations
+- Notification bar
+- Cart counter update
 
-## 🔧 Geliştirme
+## 🔧 Development
 
-Projeyi geliştirmek için:
+To develop the project:
 
-1. Dosyaları düzenleyin
-2. Tarayıcıda test edin
-3. Değişiklikleri commit edin
+1. Edit the files
+2. Test in browser
+3. Commit changes
 
 ```bash
 git add .
-git commit -m "Yeni özellik eklendi"
+git commit -m "Added new feature"
 git push origin main
 ```
 
-## 📝 Lisans
+## 📝 License
 
-Bu proje açık kaynaklıdır ve serbestçe kullanılabilir.
+This project is open source and free to use.
 
-## 👤 Yazar
+## 👤 Author
 
 **E-Commerce Platform**
 
-- GitHub: [@kullanici-adi](https://github.com/kullanici-adi)
+- GitHub: [@eroniyom](https://github.com/eroniyom)
 
-## 🙏 Teşekkürler
+## 🙏 Acknowledgments
 
-Bu projeyi beğendiyseniz yıldız vermeyi unutmayın! ⭐
+If you liked this project, don't forget to give it a star! ⭐
 
 ---
 
-**Not**: Bu bir demo projedir. Gerçek e-ticaret işlemleri için backend entegrasyonu gereklidir.
+**Note**: This is a demo project. Backend integration is required for real e-commerce transactions.
